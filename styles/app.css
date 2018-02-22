@@ -11,184 +11,232 @@
   line-height: 20px;
   font-weight: bold;
   font-style: normal;
-  letter-spacing: 1px; }
-  .customBtn.green {
-    border-color: #2AD4CE; }
-    .customBtn.green:hover {
-      color: #fff !important;
-      background: #2AD4CE; }
-  .customBtn.lgSize {
-    display: block;
-    text-align: center;
-    width: 196px;
-    height: 56px;
-    padding: 0 44px;
-    font: 1.6em "Titillium Web";
-    line-height: 3.5;
-    font-weight: bold;
-    font-style: normal; }
+  letter-spacing: 1px;
+}
+
+.customBtn.green {
+  border-color: #2AD4CE;
+}
+
+.customBtn.green:hover {
+  color: #fff !important;
+  background: #2AD4CE;
+}
+
+.customBtn.lgSize {
+  display: block;
+  text-align: center;
+  width: 196px;
+  height: 56px;
+  padding: 0 44px;
+  font: 1.6em "Titillium Web";
+  line-height: 3.5;
+  font-weight: bold;
+  font-style: normal;
+}
 
 ul, li {
   list-style: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 html {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 body {
   font-size: 10px;
   line-height: 10px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 h1, h2, h3, h4 {
-  margin: 0; }
+  margin: 0;
+}
 
 input::placeholder {
-  color: rgba(255, 255, 255, 0.7); }
+  color: rgba(255, 255, 255, 0.7);
+}
 
 ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.7); }
+  color: rgba(255, 255, 255, 0.7);
+}
 
 ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.7); }
+  color: rgba(255, 255, 255, 0.7);
+}
 
 :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.7); }
+  color: rgba(255, 255, 255, 0.7);
+}
 
 .container {
   width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .item-row {
-  margin: 0 -10px; }
-  .item-row:before {
-    content: " ";
-    display: table; }
-  .item-row:after {
-    content: " ";
-    display: table;
-    clear: both; }
+  margin: 0 -10px;
+}
+
+.item-row:before {
+  content: " ";
+  display: table;
+}
+
+.item-row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
 
 .section {
   display: table;
-  width: 100%; }
+  width: 100%;
+}
 
 .mb25 {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+}
 
 .mb70 {
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+}
 
 .floatCenter {
   display: table;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 h1 {
   font: 5.6em "Titillium Web";
   line-height: 1.35714;
   font-weight: normal;
   font-style: normal;
-  color: #373D8B; }
+  color: #373D8B;
+}
 
 h2 {
   font: 4.4em "Titillium Web";
   line-height: 1.27273;
   font-weight: 600;
   font-style: normal;
-  color: #373D8B; }
+  color: #373D8B;
+}
 
 h3 {
   font: 2.8em "Titillium Web";
   line-height: 1.28571;
   font-weight: 600;
   font-style: normal;
-  color: #373D8B; }
+  color: #373D8B;
+}
 
 .header {
   padding: 20px 80px 0;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; }
-  .header .logo {
-    font: 2.4em "Titillium Web";
-    line-height: normal;
-    font-weight: 600;
-    font-style: normal;
-    color: #fff;
-    float: left; }
-	
-    .logos {
-      height: 40px;
-      vertical-align: middle;
-      float: left;
-      padding-top: 5px;
-  }
-	
-	
-  .header .navigation {
-	padding: 12px;
-    float: right; }
-    .header .navigation li {
-      margin-left: 24px;
-      display: inline-block;
-      vertical-align: middle; }
-      .header .navigation li:first-child {
-        margin-left: 0; }
-      .header .navigation li a:not(.customBtn) {
-        color: #fff;
-        font: 1.4em "Titillium Web";
-        line-height: normal;
-        font-weight: bold;
-        font-style: normal;
-        text-transform: uppercase; }
-        .header .navigation li a:not(.customBtn):hover {
-          color: #2AD4CE; }
+  width: 100%;
+}
+
+.header .logo {
+  font: 2.4em "Titillium Web";
+  line-height: normal;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  float: left;
+}
+
+.logos {
+  height: 40px;
+  vertical-align: middle;
+  float: left;
+  padding-top: 5px;
+}
+
+.header .navigation {
+  padding: 12px;
+  float: right;
+}
+
+.header .navigation li {
+  margin-left: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header .navigation li:first-child {
+  margin-left: 0;
+}
+
+.header .navigation li a:not(.customBtn) {
+  color: #fff;
+  font: 1.4em "Titillium Web";
+  line-height: normal;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.header .navigation li a:not(.customBtn):hover {
+  color: #2AD4CE;
+}
 
 body {
-  background: #fff; }
-  
-.headerSectionCompanies {
-background: url(../images/Bg.png) center top no-repeat #2B2E58;
-height: 300px;
-padding-bottom: 0px; }
+  background: #fff;
+}
 
+.headerSectionCompanies {
+  background: url(../images/Bg.png) center top no-repeat #2B2E58;
+  height: 300px;
+  padding-bottom: 0px;
+}
 
 .headerSectionCompanies .mainTitle {
   width: 650px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
+
 .headerSectionCompanies .helpedTitle {
   width: 518px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .headerSectionCompanies {
-padding-top: 100px; }
+  padding-top: 100px;
+}
 
-  
 .headerSection {
   background: url(../images/Bg.png) center top no-repeat #2B2E58;
-  padding-bottom: 275px; }
-  
-  
+  padding-bottom: 275px;
+}
+
 .headerSection .mainTitle {
   width: 650px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
+
 .headerSection .helpedTitle {
   width: 518px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .mainTitle {
   font: 5.6em "Titillium Web";
@@ -196,7 +244,8 @@ padding-top: 100px; }
   font-weight: normal;
   font-style: normal;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+}
 
 .helpedTitle {
   font: 2em "Cabin";
@@ -205,309 +254,421 @@ padding-top: 100px; }
   font-style: normal;
   color: #fff;
   display: block;
-  text-align: center; }
+  text-align: center;
+}
 
 .headerSection {
-  padding-top: 160px; }
+  padding-top: 160px;
+}
 
 .blockChainSection {
   text-align: center;
-  margin-top: -125px; }
-  .blockChainSection h2 {
-    margin-top: 40px;
-    margin-bottom: 28px; }
-  .blockChainSection .container {
-    background: #fff;
-    box-shadow: 0 0 10px rgba(33, 40, 44, 0.05); }
-    .blockChainSection .container .shadow {
-      padding: 64px 50px 50px;
-      box-shadow: 0 2px 40px rgba(33, 40, 44, 0.07); }
-    .blockChainSection .container .icon {
-      display: block;
-      text-align: center;
-      font-size: 0;
-      line-height: 0; }
-  .blockChainSection .description {
-    color: #5F6A78;
-    margin-bottom: 25px;
-    font: 2em "Cabin";
-    line-height: 1.8;
-    font-weight: normal;
-    font-style: normal;
-    width: 545px;
-    margin-left: auto;
-    margin-right: auto; }
+  margin-top: -125px;
+}
+
+.blockChainSection h2 {
+  margin-top: 40px;
+  margin-bottom: 28px;
+}
+
+.blockChainSection .container {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(33, 40, 44, 0.05);
+}
+
+.blockChainSection .container .shadow {
+  padding: 64px 50px 50px;
+  box-shadow: 0 2px 40px rgba(33, 40, 44, 0.07);
+}
+
+.blockChainSection .container .icon {
+  display: block;
+  text-align: center;
+  font-size: 0;
+  line-height: 0;
+}
+
+.blockChainSection .description {
+  color: #5F6A78;
+  margin-bottom: 25px;
+  font: 2em "Cabin";
+  line-height: 1.8;
+  font-weight: normal;
+  font-style: normal;
+  width: 545px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .investorSection {
   padding-top: 112px;
   padding-bottom: 116px;
-  text-align: center; }
-  .investorSection .inner {
-    display: table;
-    margin: 0 auto; }
-	
-	.investorSection .inner p, .investorSection .inner li {
-	color: #000;
-    margin-bottom: 5px;
-    font: 2em "Cabin";
-    line-height: 1.8;
-    font-weight: normal;
-    font-style: normal;
-	text-align: left;
-	float: left;
-    
-	}
-    .investorSection .inner .item {
-      width: 392px;
-      text-align: center;
-      margin: 60px 44px 0;
-      float: left; }
-      .investorSection .inner .item .ico {
-        margin-bottom: 28px;
-        display: block;
-        font-size: 0;
-        line-height: 0; }
-      .investorSection .inner .item .title {
-        color: #373D8B;
-        display: block;
-        margin-bottom: 15px;
-        font: 2.8em "Titillium Web";
-        line-height: 1.28571;
-        font-weight: 600;
-        font-style: normal; }
-      .investorSection .inner .item .description {
-        color: #5F6A78;
-        font: 1.8em "Cabin";
-        line-height: 1.77778;
-        font-weight: normal;
-        font-style: normal; }
+  text-align: center;
+}
+
+.investorSection .inner {
+  display: table;
+  margin: 0 auto;
+}
+
+.investorSection .inner p, .investorSection .inner li {
+  color: #000;
+  margin-bottom: 5px;
+  font: 2em "Cabin";
+  line-height: 1.8;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  float: left;
+}
+
+.investorSection .inner .item {
+  width: 392px;
+  text-align: center;
+  margin: 60px 44px 0;
+  float: left;
+}
+
+.investorSection .inner .item .ico {
+  margin-bottom: 28px;
+  display: block;
+  font-size: 0;
+  line-height: 0;
+}
+
+.investorSection .inner .item .title {
+  color: #373D8B;
+  display: block;
+  margin-bottom: 15px;
+  font: 2.8em "Titillium Web";
+  line-height: 1.28571;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.investorSection .inner .item .description {
+  color: #5F6A78;
+  font: 1.8em "Cabin";
+  line-height: 1.77778;
+  font-weight: normal;
+  font-style: normal;
+}
 
 .howSection {
   background: #2B2E58;
   padding-top: 112px;
-  padding-bottom: 116px; }
-  .howSection h2 {
-    color: #fff;
-    margin-bottom: 36px;
-    text-align: center; }
-  .howSection .inner {
-    display: table;
-    margin: 0 auto;
-    position: relative;
-    left: -17px; }
-    .howSection .inner .item {
-      position: relative;
-      width: 100%;
-      padding-bottom: 16px;
-      overflow: hidden; }
-      .howSection .inner .item:before {
-        content: '';
-        display: block;
-        height: 100%;
-        width: 4px;
-        background: url(../images/icon/dotted.png) left top repeat-y;
-        margin-left: 44px;
-        position: absolute;
-        top: 7px; }
-      .howSection .inner .item:last-child {
-        padding-bottom: 0; }
-        .howSection .inner .item:last-child:before {
-          display: none; }
-      .howSection .inner .item .image {
-        width: 88px;
-        height: 88px;
-        margin-right: 47px;
-        display: inline-block;
-        vertical-align: top;
-        position: relative;
-        z-index: 1; }
-      .howSection .inner .item .data {
-        margin-top: 25px;
-        display: inline-block;
-        vertical-align: top; }
-      .howSection .inner .item .title {
-        font: 2.8em "Titillium Web";
-        line-height: 1.28571;
-        font-weight: 600;
-        font-style: normal;
-        color: #fff;
-        width: 460px; }
-      .howSection .inner .item .description {
-        margin-top: 16px;
-        font: 1.8em "Cabin";
-        line-height: 1.77778;
-        font-weight: normal;
-        font-style: normal;
-        color: #fff;
-        width: 460px; }
+  padding-bottom: 116px;
+}
+
+.howSection h2 {
+  color: #fff;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.howSection .inner {
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  left: -17px;
+}
+
+.howSection .inner .item {
+  position: relative;
+  width: 100%;
+  padding-bottom: 16px;
+  overflow: hidden;
+}
+
+.howSection .inner .item:before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 4px;
+  background: url(../images/icon/dotted.png) left top repeat-y;
+  margin-left: 44px;
+  position: absolute;
+  top: 7px;
+}
+
+.howSection .inner .item:last-child {
+  padding-bottom: 0;
+}
+
+.howSection .inner .item:last-child:before {
+  display: none;
+}
+
+.howSection .inner .item .image {
+  width: 88px;
+  height: 88px;
+  margin-right: 47px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  z-index: 1;
+}
+
+.howSection .inner .item .data {
+  margin-top: 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.howSection .inner .item .title {
+  font: 2.8em "Titillium Web";
+  line-height: 1.28571;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  width: 460px;
+}
+
+.howSection .inner .item .description {
+  margin-top: 16px;
+  font: 1.8em "Cabin";
+  line-height: 1.77778;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  width: 460px;
+}
 
 .partnersSection {
   padding-top: 112px;
   padding-bottom: 76px;
-  text-align: center;}
-  .partnersSection h2 {
-    margin-bottom: 20px; }
-  
+  text-align: center;
+}
+
+.partnersSection h2 {
+  margin-bottom: 20px;
+}
+
 .partnersSection .item {
-    width: 32%;
-    padding: 40px 45px;
-    float: left; }
-    .partnersSection .item .image {
-      width: 300px;
-      height: 170px;
-      background: rgba(216, 216, 216, 0.4);
-      overflow: hidden; }
-      .partnersSection .item .image img {
-        display: block; }
+  width: 32%;
+  padding: 40px 45px;
+  float: left;
+}
+
+.partnersSection .item .image {
+  width: 300px;
+  height: 170px;
+  background: rgba(216, 216, 216, 0.4);
+  overflow: hidden;
+}
+
+.partnersSection .item .image img {
+  display: block;
+}
 
 .footer {
   background: #2B2E58;
   padding-top: 56px;
   padding-bottom: 40px;
   display: table;
-  width: 100%; }
-  .footer .leftSide {
-    float: left;
-    width: 470px;
-    margin-left: 8px; }
-  .footer .logo {
-    font: 2.4em "Titillium Web";
-    line-height: 1.20833;
-    font-weight: 600;
-    font-style: normal;
-    color: #fff; }
-  .footer .description {
-    font: 1.8em "Cabin";
-    line-height: 1.77778;
-    font-weight: normal;
-    font-style: normal;
-    margin-bottom: 32px;
-    margin-top: 23px;
-    color: #fff;
-    width: 210px; }
-  .footer .input {
-    max-width: 300px;
-    width: 100%;
-    float: left; }
-    .footer .input input {
-      background: #26294F;
-      border: 1px solid #26294F;
-      box-sizing: border-box;
-      color: rgba(255, 255, 255, 0.7);
-      padding: 0 20px;
-      height: 48px;
-      outline: none;
-      border-radius: 4px;
-      width: 100%;
-      font: 1.8em "Cabin";
-      line-height: 1.77778;
-      font-weight: normal;
-      font-style: normal; }
-      .footer .input input:active, .footer .input input:focus {
-        border: 1px solid #2AD4CE; }
-  .footer .rightSide {
-    float: left; }
-  .footer .copyright {
-    margin-top: 10px;
-    font: 1.8em "Cabin";
-    line-height: 1.77778;
-    font-weight: normal;
-    font-style: normal;
-    color: #fff;
-    display: block;
-    width: 100%;
-    padding-left: 8px;
-    float: left; }
-    .footer .copyright br {
-      display: none; }
+  width: 100%;
+}
+
+.footer .leftSide {
+  float: left;
+  width: 470px;
+  margin-left: 8px;
+}
+
+.footer .logo {
+  font: 2.4em "Titillium Web";
+  line-height: 1.20833;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+}
+
+.footer .description {
+  font: 1.8em "Cabin";
+  line-height: 1.77778;
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 32px;
+  margin-top: 23px;
+  color: #fff;
+  width: 210px;
+}
+
+.footer .input {
+  max-width: 300px;
+  width: 100%;
+  float: left;
+}
+
+.footer .input input {
+  background: #26294F;
+  border: 1px solid #26294F;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0 20px;
+  height: 48px;
+  outline: none;
+  border-radius: 4px;
+  width: 100%;
+  font: 1.8em "Cabin";
+  line-height: 1.77778;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footer .input input:active, .footer .input input:focus {
+  border: 1px solid #2AD4CE;
+}
+
+.footer .rightSide {
+  float: left;
+}
+
+.footer .copyright {
+  margin-top: 10px;
+  font: 1.8em "Cabin";
+  line-height: 1.77778;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding-left: 8px;
+  float: left;
+}
+
+.footer .copyright br {
+  display: none;
+}
 
 .footerBox {
   margin-left: 110px;
-  float: left; }
-  .footerBox:first-child {
-    margin-left: 0; }
-  .footerBox .title {
-    display: block;
-    margin-bottom: 16px;
-    font: 2.4em "Titillium Web";
-    line-height: 1.20833;
-    font-weight: 600;
-    font-style: normal;
-    color: #fff; }
-  .footerBox .navigation li {
-    margin-bottom: 11px; }
-    .footerBox .navigation li a {
-      color: #fff;
-      font: 1.8em "Cabin";
-      line-height: 1.77778;
-      font-weight: normal;
-      font-style: normal; }
-      .footerBox .navigation li a:hover {
-        color: #2AD4CE; }
-  .footerBox .socials {
-    margin-top: 21px; }
-    .footerBox .socials li {
-      float: left;
-      margin-left: 10px;
-      font: 1.8em "Cabin";
-      line-height: 1.77778;
-      font-weight: normal;
-      font-style: normal; }
-      .footerBox .socials li:first-child {
-        margin-left: 0; }
-      .footerBox .socials li a {
-        display: block;
-        width: 48px;
-        height: 48px;
-        border: 1px solid #2AD4CE;
-        border-radius: 100%;
-        overflow: hidden;
-        transition: background-color 0.3s ease; }
-        .footerBox .socials li a.fb {
-          background: url(../images/icon/fb.png) center center no-repeat; }
-        .footerBox .socials li a.tw {
-          background: url(../images/icon/tw.png) center center no-repeat; }
-		.footerBox .socials li a.li {
-          background: url(../images/icon/li.png) center center no-repeat; }
-        .footerBox .socials li a:hover {
-          background-color: #2AD4CE; }
+  float: left;
+}
+
+.footerBox:first-child {
+  margin-left: 0;
+}
+
+.footerBox .title {
+  display: block;
+  margin-bottom: 16px;
+  font: 2.4em "Titillium Web";
+  line-height: 1.20833;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+}
+
+.footerBox .navigation li {
+  margin-bottom: 11px;
+}
+
+.footerBox .navigation li a {
+  color: #fff;
+  font: 1.8em "Cabin";
+  line-height: 1.77778;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footerBox .navigation li a:hover {
+  color: #2AD4CE;
+}
+
+.footerBox .socials {
+  margin-top: 21px;
+}
+
+.footerBox .socials li {
+  float: left;
+  margin-left: 10px;
+  font: 1.8em "Cabin";
+  line-height: 1.77778;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footerBox .socials li:first-child {
+  margin-left: 0;
+}
+
+.footerBox .socials li a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #2AD4CE;
+  border-radius: 100%;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.footerBox .socials li a.fb {
+  background: url(../images/icon/fb.png) center center no-repeat;
+}
+
+.footerBox .socials li a.tw {
+  background: url(../images/icon/tw.png) center center no-repeat;
+}
+
+.footerBox .socials li a.te {
+  background: url(../images/icon/te.png) center center no-repeat;
+}
+
+.footerBox .socials li a:hover {
+  background-color: #2AD4CE;
+}
 
 .mobileShow {
-  display: none; }
+  display: none;
+}
 
 .mobileNavigation {
-  display: none; }
+  display: none;
+}
 
 @media screen and (max-width: 979px) {
   .container {
-    width: 100%; }
+    width: 100%;
+  }
   .header {
-    padding: 30px 40px 0; }
+    padding: 30px 40px 0;
+  }
   .blockChainSection .container {
     width: calc(100% - 50px);
-    margin: 0 25px; }
-    .blockChainSection .container .description {
-      max-width: 614px;
-      width: 100%; }
+    margin: 0 25px;
+  }
+  .blockChainSection .container .description {
+    max-width: 614px;
+    width: 100%;
+  }
   .investorSection {
-    padding-bottom: 84px; }
-    .investorSection .inner .item {
-      width: 50%;
-      margin: 28px 0 0;
-      padding: 0 25px; }
+    padding-bottom: 84px;
+  }
+  .investorSection .inner .item {
+    width: 50%;
+    margin: 28px 0 0;
+    padding: 0 25px;
+  }
   .partnersSection {
     background-size: 100% auto;
     margin: 0 25px;
-    width: calc(100% - 50px); }
-    .partnersSection .item {
-      padding: 45px 45px; }
-      .partnersSection .item .image {
-        height: 50px; }
+    width: calc(100% - 50px);
+  }
+  .partnersSection .item {
+    padding: 45px 45px;
+  }
+  .partnersSection .item .image {
+    height: 50px;
+  }
   .footer {
-    padding: 55px 30px 40px; }
-    .footer .leftSide {
-      width: 220px;
-      margin-right: 80px; } }
+    padding: 55px 30px 40px;
+  }
+  .footer .leftSide {
+    width: 220px;
+    margin-right: 80px;
+  }
+}
 
 @media screen and (max-width: 678px) {
   h1 {
@@ -515,193 +676,242 @@ padding-top: 100px; }
     line-height: 1.375;
     font-weight: normal;
     font-style: normal;
-    color: #373D8B; }
+    color: #373D8B;
+  }
   h2 {
     font: 2.4em "Titillium Web";
     line-height: 1.5;
     font-weight: 600;
     font-style: normal;
-    color: #373D8B; }
+    color: #373D8B;
+  }
   .container {
-    width: 100%; }
+    width: 100%;
+  }
   .header {
     padding: 16px 16px 0;
-    height: 60px; }
+    height: 60px;
+  }
   .headerSection {
     box-sizing: border-box;
     padding-bottom: 80px;
     padding-top: 80px;
     background: #2B2E58;
-    min-height: 100vh; }
-    .headerSection .container {
-      display: table-cell;
-      vertical-align: middle; }
-    .headerSection .mainTitle {
-      padding: 0 20px;
-      width: 100%;
-      font: 3.2em "Titillium Web";
-      line-height: 1.375;
-      font-weight: normal;
-      font-style: normal; }
-      .headerSection .mainTitle br {
-        display: none; }
-    .headerSection .helpedTitle {
-      padding: 0 20px;
-      width: 100%;
-      font: 1.8em "Cabin";
-      line-height: 1.77778;
-      font-weight: normal;
-      font-style: normal;
-      margin-bottom: 24px; }
-      .headerSection .helpedTitle br {
-        display: none; }
-
-.headerSectionCompanies .container {
-  display: table-cell;
-  vertical-align: middle; }
-.headerSectionCompanies .mainTitle {
-  padding: 0 20px;
-  width: 100%;
-  font: 3.2em "Titillium Web";
-  line-height: 1.375;
-  font-weight: normal;
-  font-style: normal; }
+    min-height: 100vh;
+  }
+  .headerSection .container {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .headerSection .mainTitle {
+    padding: 0 20px;
+    width: 100%;
+    font: 3.2em "Titillium Web";
+    line-height: 1.375;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .headerSection .mainTitle br {
+    display: none;
+  }
+  .headerSection .helpedTitle {
+    padding: 0 20px;
+    width: 100%;
+    font: 1.8em "Cabin";
+    line-height: 1.77778;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 24px;
+  }
+  .headerSection .helpedTitle br {
+    display: none;
+  }
+  .headerSectionCompanies .container {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .headerSectionCompanies .mainTitle {
+    padding: 0 20px;
+    width: 100%;
+    font: 3.2em "Titillium Web";
+    line-height: 1.375;
+    font-weight: normal;
+    font-style: normal;
+  }
   .headerSectionCompanies .mainTitle br {
-    display: none; }
-.headerSectionCompanies .helpedTitle {
-  padding: 0 20px;
-  width: 100%;
-  font: 1.8em "Cabin";
-  line-height: 1.77778;
-  font-weight: normal;
-  font-style: normal;
-  margin-bottom: 24px; }
+    display: none;
+  }
+  .headerSectionCompanies .helpedTitle {
+    padding: 0 20px;
+    width: 100%;
+    font: 1.8em "Cabin";
+    line-height: 1.77778;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 24px;
+  }
   .headerSectionCompanies .helpedTitle br {
-    display: none; }
-
+    display: none;
+  }
   .blockChainSection {
-    margin-top: 0; }
-    .blockChainSection .container {
-      width: 100%;
-      margin: 0; }
-      .blockChainSection .container .shadow {
-        padding: 40px 20px 36px; }
-      .blockChainSection .container br {
-        display: none; }
-      .blockChainSection .container h2 {
-        width: 210px;
-        margin-left: auto;
-        margin-right: auto; }
-      .blockChainSection .container .description {
-        width: 100%;
-        font: 1.8em "Cabin";
-        line-height: 1.77778;
-        font-weight: normal;
-        font-style: normal; }
+    margin-top: 0;
+  }
+  .blockChainSection .container {
+    width: 100%;
+    margin: 0;
+  }
+  .blockChainSection .container .shadow {
+    padding: 40px 20px 36px;
+  }
+  .blockChainSection .container br {
+    display: none;
+  }
+  .blockChainSection .container h2 {
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blockChainSection .container .description {
+    width: 100%;
+    font: 1.8em "Cabin";
+    line-height: 1.77778;
+    font-weight: normal;
+    font-style: normal;
+  }
   .investorSection {
     padding-top: 40px;
     padding-bottom: 60px;
-    background: none; }
-    .investorSection .inner .item {
-      width: 100%;
-      margin: 28px 0 0;
-      padding: 0 20px; }
-      .investorSection .inner .item .ico {
-        margin-bottom: 20px; }
-      .investorSection .inner .item .title {
-        font: 2.1em "Titillium Web";
-        line-height: 1.33333;
-        font-weight: 600;
-        font-style: normal; }
+    background: none;
+  }
+  .investorSection .inner .item {
+    width: 100%;
+    margin: 28px 0 0;
+    padding: 0 20px;
+  }
+  .investorSection .inner .item .ico {
+    margin-bottom: 20px;
+  }
+  .investorSection .inner .item .title {
+    font: 2.1em "Titillium Web";
+    line-height: 1.33333;
+    font-weight: 600;
+    font-style: normal;
+  }
   .howSection {
     padding-top: 40px;
-    padding-bottom: 36px; }
-    .howSection h2 {
-      margin-bottom: 28px; }
-    .howSection .inner {
-      left: 0; }
-      .howSection .inner .item {
-        text-align: center;
-        padding: 0 20px;
-        margin-bottom: 28px; }
-        .howSection .inner .item .data {
-          margin-top: 20px; }
-        .howSection .inner .item .description {
-          width: 100%; }
-        .howSection .inner .item .title {
-          width: 100%;
-          font: 1.8em "Cabin";
-          line-height: 1.77778;
-          font-weight: normal;
-          font-style: normal; }
-        .howSection .inner .item:before {
-          display: none; }
-        .howSection .inner .item .image {
-          margin: 0; }
+    padding-bottom: 36px;
+  }
+  .howSection h2 {
+    margin-bottom: 28px;
+  }
+  .howSection .inner {
+    left: 0;
+  }
+  .howSection .inner .item {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 28px;
+  }
+  .howSection .inner .item .data {
+    margin-top: 20px;
+  }
+  .howSection .inner .item .description {
+    width: 100%;
+  }
+  .howSection .inner .item .title {
+    width: 100%;
+    font: 1.8em "Cabin";
+    line-height: 1.77778;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .howSection .inner .item:before {
+    display: none;
+  }
+  .howSection .inner .item .image {
+    margin: 0;
+  }
   .partnersSection {
     width: 100%;
     margin: 0;
     padding: 40px 48px 16px;
     background: none;
-    position: relative; }
-    .partnersSection:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 1px;
-      height: 100%;
-      background: #6F7986;
-      opacity: 0.1; }
-    .partnersSection .item {
-      width: 50%;
-      padding: 0;
-      margin-bottom: 48px; }
-      .partnersSection .item .image {
-        padding: 0;
-        width: 84px;
-        height: 50px;
-        margin: 0 auto; }
+    position: relative;
+  }
+  .partnersSection:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background: #6F7986;
+    opacity: 0.1;
+  }
+  .partnersSection .item {
+    width: 50%;
+    padding: 0;
+    margin-bottom: 48px;
+  }
+  .partnersSection .item .image {
+    padding: 0;
+    width: 84px;
+    height: 50px;
+    margin: 0 auto;
+  }
   .footer {
     width: 100%;
-    padding: 36px 20px 0; }
-    .footer .description {
-      margin: 16px auto 28px; }
-    .footer .logo {
-      font: 2.4 "Titillium Web";
-      line-height: 1.20833;
-      font-weight: 600;
-      font-style: normal; }
-    .footer .leftSide {
-      text-align: center;
-      width: 100%;
-      margin-left: 0;
-      margin-right: 0; }
-      .footer .leftSide .input {
-        max-width: 100%; }
-    .footer .rightSide {
-      width: 100%; }
-    .footer .footerBox {
-      width: 100%;
-      text-align: center;
-      margin: 40px 0 0; }
-      .footer .footerBox .socials {
-        display: table;
-        margin: 20px auto 0; }
-    .footer .copyright {
-      text-align: center;
-      width: 100%;
-      margin: 20px 0;
-      padding-right: 0; }
-      .footer .copyright br {
-        display: block; }
+    padding: 36px 20px 0;
+  }
+  .footer .description {
+    margin: 16px auto 28px;
+  }
+  .footer .logo {
+    font: 2.4 "Titillium Web";
+    line-height: 1.20833;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .footer .leftSide {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer .leftSide .input {
+    max-width: 100%;
+  }
+  .footer .rightSide {
+    width: 100%;
+  }
+  .footer .footerBox {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 0;
+  }
+  .footer .footerBox .socials {
+    display: table;
+    margin: 20px auto 0;
+  }
+  .footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    padding-right: 0;
+  }
+  .footer .copyright br {
+    display: block;
+  }
   .hideOnMobile {
-    display: none !important; }
+    display: none !important;
+  }
   .mobileShow {
-    display: block; }
+    display: block;
+  }
   .header .navigation {
-    display: none; }
+    display: none;
+  }
   .menuIcon {
     width: 36px;
     height: 36px;
@@ -710,10 +920,12 @@ padding-top: 100px; }
     top: 16px;
     border: 1px solid #2AD4CE;
     border-radius: 4px;
-    overflow: hidden; }
+    overflow: hidden;
+  }
   .hamburger {
     padding: 6px;
-    width: 100%; }
+    width: 100%;
+  }
   .hamburger .line {
     width: 16px;
     height: 2px;
@@ -722,21 +934,26 @@ padding-top: 100px; }
     margin: 4px auto;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.3s ease-in-out;
+  }
   .hamburger:hover {
-    cursor: pointer; }
+    cursor: pointer;
+  }
   #hamburger-1.is-active .line:nth-child(2) {
-    opacity: 0; }
+    opacity: 0;
+  }
   #hamburger-1.is-active .line:nth-child(1) {
     -webkit-transform: translateY(4.5px) rotate(45deg);
     -ms-transform: translateY(4.5px) rotate(45deg);
     -o-transform: translateY(4.5px) rotate(45deg);
-    transform: translateY(4.5px) rotate(45deg); }
+    transform: translateY(4.5px) rotate(45deg);
+  }
   #hamburger-1.is-active .line:nth-child(3) {
     -webkit-transform: translateY(-8px) rotate(-45deg);
     -ms-transform: translateY(-8px) rotate(-45deg);
     -o-transform: translateY(-8px) rotate(-45deg);
-    transform: translateY(-8px) rotate(-45deg); }
+    transform: translateY(-8px) rotate(-45deg);
+  }
   .mobileNavigation {
     display: none;
     position: absolute;
@@ -748,15 +965,39 @@ padding-top: 100px; }
     top: 60px;
     text-align: center;
     padding-top: 20px;
-    overflow: auto; }
-    .mobileNavigation li {
-      width: 100%;
-      margin-bottom: 15px; }
-      .mobileNavigation li a {
-        color: #fff;
-        font: 1.8em "Cabin";
-        line-height: 1.77778;
-        font-weight: normal;
-        font-style: normal; }
-      .mobileNavigation li .customBtn {
-        display: inline-block; } }
+    overflow: auto;
+  }
+  .mobileNavigation li {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .mobileNavigation li a {
+    color: #fff;
+    font: 1.8em "Cabin";
+    line-height: 1.77778;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .mobileNavigation li .customBtn {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 679px) {
+  .p-b-20 {
+    padding-bottom: 200px;
+  }
+}
+
+.terms {
+  color: rgb(84, 84, 84);
+  display: inline;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 18.2px;
+  text-align: left;
+  width: auto;
+  word-wrap: break-word;
+}
