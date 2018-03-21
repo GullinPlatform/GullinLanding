@@ -1,3 +1,43 @@
+ul#demo-button li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.companyPartners {
+  padding-top: 30px;
+  padding-bottom: 76px;
+  text-align: center;
+}
+
+.companyPartners .item {
+  width: 50%;
+  padding: 40px 2px;
+  float:left;
+
+}
+
+.companyPartners .item .image {
+  width: 700px;
+  height: 170px;
+  overflow: visible;
+}
+
+.companyPartners .item .image img {
+  display:inline-flex;
+}
+
+
+#ourStory {
+  margin-top: -5px;
+  text-align: left;
+
+}
+#ourStory h2{
+  text-align: center;
+  margin-top: 0px;
+}
+
 .customBtn {
   height: 36px;
   border-radius: 4px;
@@ -16,6 +56,15 @@
 
 .customBtn.green {
   border-color: #2AD4CE;
+}
+
+.customBtn.white {
+  border-color: #f6f6f6;
+}
+
+.customBtn.white:hover {
+  color: #fff !important;
+  background: #2AD4CE;
 }
 
 .customBtn.green:hover {
@@ -629,6 +678,9 @@ body {
 }
 
 @media screen and (max-width: 979px) {
+
+
+
   .container {
     width: 100%;
   }
@@ -672,6 +724,42 @@ body {
 }
 
 @media screen and (max-width: 678px) {
+
+  ul#demo-button li {
+      display: block;
+      vertical-align: middle;
+      margin-bottom: 20px;
+      margin-right: 0px;
+      text-align: center;
+  }
+
+  .companyPartners {
+    width: 100%;
+    margin: 0;
+    padding: 40px 15px;
+    background: none;
+    position: relative;
+  }
+
+  .companyPartners .item {
+
+    display: block;
+    padding: inherit 0px;
+    margin: 0;
+    position: relative;
+    width: 60%;
+
+  }
+
+  .companyPartners .item .image {
+
+    overflow:auto;
+    position: relative;
+    width: 330px;
+    height: auto;
+  }
+
+
   h1 {
     font: 3.2em "Titillium Web";
     line-height: 1.375;
